@@ -6,16 +6,14 @@ import legacy from '@vitejs/plugin-legacy'
 export default defineConfig({
   plugins: [
     legacy({
-      targets: ['ie >= 11'],
-      additionalLegacyPolyfills: ['regenerator-runtime/runtime']
+      targets: ['IE >= 11'],
+      additionalLegacyPolyfills: [
+        'regenerator-runtime/runtime',
+        'react-app-polyfill/ie11',
+        'react-app-polyfill/stable',
+        'core-js/stable',
+      ]
     }),
-    react({
-      jsxImportSource: "@emotion/react",
-      babel: {
-        plugins:[
-          "@babel/plugin-transform-runtime"
-        ]
-      }
-    })
+    react()
   ],
 })

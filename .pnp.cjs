@@ -35,6 +35,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__plugin-transform-runtime", "npm:7.9.5"],\
           ["@types/react", "npm:18.2.65"],\
           ["@types/react-dom", "npm:18.2.21"],\
+          ["@types/regenerator-runtime", "npm:0.13.5"],\
           ["@typescript-eslint/eslint-plugin", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:7.2.0"],\
           ["@typescript-eslint/parser", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:7.2.0"],\
           ["@vitejs/plugin-legacy", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:5.3.2"],\
@@ -44,9 +45,13 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.57.0"],\
           ["eslint-plugin-react-hooks", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:4.6.0"],\
           ["eslint-plugin-react-refresh", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:0.4.5"],\
+          ["events-polyfill", "npm:2.1.2"],\
           ["framer-motion", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:11.0.12"],\
+          ["proxy-polyfill", "npm:0.3.2"],\
           ["react", "npm:18.2.0"],\
+          ["react-app-polyfill", "npm:3.0.0"],\
           ["react-dom", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:18.2.0"],\
+          ["regenerator-runtime", "npm:0.14.1"],\
           ["terser", "npm:5.29.1"],\
           ["typescript", "patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=5adc0c"],\
           ["vite", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:5.1.6"]\
@@ -5700,6 +5705,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/regenerator-runtime", [\
+      ["npm:0.13.5", {\
+        "packageLocation": "./.yarn/cache/@types-regenerator-runtime-npm-0.13.5-3fd0577b30-95bb8e208e.zip/node_modules/@types/regenerator-runtime/",\
+        "packageDependencies": [\
+          ["@types/regenerator-runtime", "npm:0.13.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/scheduler", [\
       ["npm:0.16.8", {\
         "packageLocation": "./.yarn/cache/@types-scheduler-npm-0.16.8-303819b439-f86de50494.zip/node_modules/@types/scheduler/",\
@@ -6168,6 +6182,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/array-union-npm-2.1.0-4e4852b221-429897e681.zip/node_modules/array-union/",\
         "packageDependencies": [\
           ["array-union", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["asap", [\
+      ["npm:2.0.6", {\
+        "packageLocation": "./.yarn/cache/asap-npm-2.0.6-36714d439d-c6d5e39fe1.zip/node_modules/asap/",\
+        "packageDependencies": [\
+          ["asap", "npm:2.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7009,6 +7032,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/esutils-npm-2.0.3-f865beafd5-9a2fe69a41.zip/node_modules/esutils/",\
         "packageDependencies": [\
           ["esutils", "npm:2.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["events-polyfill", [\
+      ["npm:2.1.2", {\
+        "packageLocation": "./.yarn/cache/events-polyfill-npm-2.1.2-bd36b76365-76913e884e.zip/node_modules/events-polyfill/",\
+        "packageDependencies": [\
+          ["events-polyfill", "npm:2.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8247,6 +8279,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["performance-now", [\
+      ["npm:2.1.0", {\
+        "packageLocation": "./.yarn/cache/performance-now-npm-2.1.0-45e3ce7e49-22c54de06f.zip/node_modules/performance-now/",\
+        "packageDependencies": [\
+          ["performance-now", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["picocolors", [\
       ["npm:1.0.0", {\
         "packageLocation": "./.yarn/cache/picocolors-npm-1.0.0-d81e0b1927-20a5b249e3.zip/node_modules/picocolors/",\
@@ -8295,6 +8336,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["promise", [\
+      ["npm:8.3.0", {\
+        "packageLocation": "./.yarn/cache/promise-npm-8.3.0-fbfb957417-6fccae27a1.zip/node_modules/promise/",\
+        "packageDependencies": [\
+          ["promise", "npm:8.3.0"],\
+          ["asap", "npm:2.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["promise-retry", [\
       ["npm:2.0.1", {\
         "packageLocation": "./.yarn/cache/promise-retry-npm-2.0.1-871f0b01b7-9c7045a1a2.zip/node_modules/promise-retry/",\
@@ -8327,6 +8378,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["proxy-polyfill", [\
+      ["npm:0.3.2", {\
+        "packageLocation": "./.yarn/cache/proxy-polyfill-npm-0.3.2-5ef18763ed-89575586d7.zip/node_modules/proxy-polyfill/",\
+        "packageDependencies": [\
+          ["proxy-polyfill", "npm:0.3.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["punycode", [\
       ["npm:2.3.1", {\
         "packageLocation": "./.yarn/cache/punycode-npm-2.3.1-97543c420d-14f76a8206.zip/node_modules/punycode/",\
@@ -8345,12 +8405,37 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["raf", [\
+      ["npm:3.4.1", {\
+        "packageLocation": "./.yarn/cache/raf-npm-3.4.1-c25d48d76e-337f0853c9.zip/node_modules/raf/",\
+        "packageDependencies": [\
+          ["raf", "npm:3.4.1"],\
+          ["performance-now", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["react", [\
       ["npm:18.2.0", {\
         "packageLocation": "./.yarn/cache/react-npm-18.2.0-1eae08fee2-b562d9b569.zip/node_modules/react/",\
         "packageDependencies": [\
           ["react", "npm:18.2.0"],\
           ["loose-envify", "npm:1.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-app-polyfill", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "./.yarn/cache/react-app-polyfill-npm-3.0.0-e607e071bd-7079c81717.zip/node_modules/react-app-polyfill/",\
+        "packageDependencies": [\
+          ["react-app-polyfill", "npm:3.0.0"],\
+          ["core-js", "npm:3.36.0"],\
+          ["object-assign", "npm:4.1.1"],\
+          ["promise", "npm:8.3.0"],\
+          ["raf", "npm:3.4.1"],\
+          ["regenerator-runtime", "npm:0.13.11"],\
+          ["whatwg-fetch", "npm:3.6.20"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8553,6 +8638,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["regenerator-runtime", [\
+      ["npm:0.13.11", {\
+        "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.13.11-90bf536060-12b069dc77.zip/node_modules/regenerator-runtime/",\
+        "packageDependencies": [\
+          ["regenerator-runtime", "npm:0.13.11"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:0.14.1", {\
         "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.14.1-a6c97c609a-1b16eb2c4b.zip/node_modules/regenerator-runtime/",\
         "packageDependencies": [\
@@ -8975,6 +9067,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__plugin-transform-runtime", "npm:7.9.5"],\
           ["@types/react", "npm:18.2.65"],\
           ["@types/react-dom", "npm:18.2.21"],\
+          ["@types/regenerator-runtime", "npm:0.13.5"],\
           ["@typescript-eslint/eslint-plugin", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:7.2.0"],\
           ["@typescript-eslint/parser", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:7.2.0"],\
           ["@vitejs/plugin-legacy", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:5.3.2"],\
@@ -8984,9 +9077,13 @@ const RAW_RUNTIME_STATE =
           ["eslint", "npm:8.57.0"],\
           ["eslint-plugin-react-hooks", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:4.6.0"],\
           ["eslint-plugin-react-refresh", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:0.4.5"],\
+          ["events-polyfill", "npm:2.1.2"],\
           ["framer-motion", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:11.0.12"],\
+          ["proxy-polyfill", "npm:0.3.2"],\
           ["react", "npm:18.2.0"],\
+          ["react-app-polyfill", "npm:3.0.0"],\
           ["react-dom", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:18.2.0"],\
+          ["regenerator-runtime", "npm:0.14.1"],\
           ["terser", "npm:5.29.1"],\
           ["typescript", "patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=5adc0c"],\
           ["vite", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:5.1.6"]\
@@ -9302,6 +9399,15 @@ const RAW_RUNTIME_STATE =
           "stylus",\
           "sugarss",\
           "terser"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["whatwg-fetch", [\
+      ["npm:3.6.20", {\
+        "packageLocation": "./.yarn/cache/whatwg-fetch-npm-3.6.20-a6f79b98c4-fa972dd140.zip/node_modules/whatwg-fetch/",\
+        "packageDependencies": [\
+          ["whatwg-fetch", "npm:3.6.20"]\
         ],\
         "linkType": "HARD"\
       }]\

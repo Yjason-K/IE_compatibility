@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import AsyncComponent from './AsyncComponent'
-import Chakra from './Chakra'
+// import Chakra from './Chakra'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Chakra/>
+      {/* <Chakra/> */}
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
