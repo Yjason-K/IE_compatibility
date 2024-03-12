@@ -1,21 +1,21 @@
 import { useState, useEffect } from 'react';
+import axios from 'axios';
 
-interface posts{
-  "userId": number,
-  "id": number,
-  "title": string,
-  "body": string
+interface Post {
+  userId: number;
+  id: number;
+  title: string;
+  body: string;
 }
 
 const AsyncComponent = () => {
-  const [data, setData] = useState<posts[]>([]);
+  const [data, setData] = useState<Post[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/posts');
-        const jsonData = await response.json();
-        setData(jsonData);
+        const response = await axios.get<Post[]>('https://jsonplaceholder.typicode.com/posts');
+        setData(response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
