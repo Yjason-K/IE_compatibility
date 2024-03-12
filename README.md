@@ -4,7 +4,7 @@ To check IE11's compatibility with the vite-react.
 
 Vite + React + Yarn Berry (@vite/legacy-plugin)
 
-Even though it employs zero-install, the initial installation is required when fetching the project for the first time."
+Even though it employs zero-install, the initial installation is required when fetching the project for the first time.
 
 
 ---
