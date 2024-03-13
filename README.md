@@ -1,10 +1,16 @@
 # React + TypeScript + Vite
 
-To check IE11's compatibility with the vite-react.
+~~To check IE11's compatibility with the vite-react.~~
 
-Vite + React + Yarn Berry (@vite/legacy-plugin)
+Test React Table with chakra-ui <br/>
+https://chakra-ui.com/
+https://tanstack.com/table/latest
+
+Vite + React + Yarn Berry
 
 Even though it employs zero-install, the initial installation is required when fetching the project for the first time.
+
+
 
 
 ---
