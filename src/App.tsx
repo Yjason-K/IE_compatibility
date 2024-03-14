@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import AsyncComponent from './AsyncComponent'
+// import AsyncComponent from './components/AsyncComponent.tsx'
+import {Box} from "@chakra-ui/react";
+import {TableDemo} from "./components/TableDemo.tsx";
 // import Chakra from './Chakra'
 
 function App() {
@@ -20,7 +22,10 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <AsyncComponent/>
+      {/*<AsyncComponent/>*/}
+      <Box w='100%'>
+        <TableDemo/>
+      </Box>
     </>
   )
 }

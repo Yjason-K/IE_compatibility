@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@chakra-ui/react", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:2.8.2"],\
           ["@emotion/react", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:11.11.4"],\
           ["@emotion/styled", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:11.11.0"],\
+          ["@tanstack/react-table", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:8.13.2"],\
           ["@types/babel__core", "npm:7.20.5"],\
           ["@types/babel__plugin-transform-runtime", "npm:7.9.5"],\
           ["@types/react", "npm:18.2.65"],\
@@ -3574,6 +3575,42 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@rollup-rollup-win32-x64-msvc-npm-4.13.0-d52da037fd/node_modules/@rollup/rollup-win32-x64-msvc/",\
         "packageDependencies": [\
           ["@rollup/rollup-win32-x64-msvc", "npm:4.13.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tanstack/react-table", [\
+      ["npm:8.13.2", {\
+        "packageLocation": "./.yarn/cache/@tanstack-react-table-npm-8.13.2-69ca9043c7-780f206c29.zip/node_modules/@tanstack/react-table/",\
+        "packageDependencies": [\
+          ["@tanstack/react-table", "npm:8.13.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:8.13.2", {\
+        "packageLocation": "./.yarn/__virtual__/@tanstack-react-table-virtual-d2bd92ea3e/0/cache/@tanstack-react-table-npm-8.13.2-69ca9043c7-780f206c29.zip/node_modules/@tanstack/react-table/",\
+        "packageDependencies": [\
+          ["@tanstack/react-table", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:8.13.2"],\
+          ["@tanstack/table-core", "npm:8.13.2"],\
+          ["@types/react", "npm:18.2.65"],\
+          ["@types/react-dom", "npm:18.2.21"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tanstack/table-core", [\
+      ["npm:8.13.2", {\
+        "packageLocation": "./.yarn/cache/@tanstack-table-core-npm-8.13.2-577b38a7b2-e81934be77.zip/node_modules/@tanstack/table-core/",\
+        "packageDependencies": [\
+          ["@tanstack/table-core", "npm:8.13.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7303,6 +7340,7 @@ const RAW_RUNTIME_STATE =
           ["@chakra-ui/react", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:2.8.2"],\
           ["@emotion/react", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:11.11.4"],\
           ["@emotion/styled", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:11.11.0"],\
+          ["@tanstack/react-table", "virtual:64d9d99123514d2d3afc2bd3bb9be45c1c64310c2ee40e3102a0737c4d692329fdb1077ec41e61655bf5156d9a6c19b6eb32483e9e311154672ebaaeaac49550#npm:8.13.2"],\
           ["@types/babel__core", "npm:7.20.5"],\
           ["@types/babel__plugin-transform-runtime", "npm:7.9.5"],\
           ["@types/react", "npm:18.2.65"],\
