@@ -38,6 +38,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "json-server": "^1.0.0-alpha.23",
     "proxy-polyfill": "^0.3.2",
     "regenerator-runtime": "^0.14.1",
     "terser": "^5.29.1",
